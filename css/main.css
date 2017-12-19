@@ -46,23 +46,17 @@ p {
   
 }
 
-footer {
-
-	border-top: 1px solid #d5d5d5;
-  
+ul{
+  list-style: none;
+  margin: 0rem;
+  padding: 1rem;
 }
 
-ul.posts {
+li {
+  background: #FFF;
+  padding: 1rem;
+}
 
-	margin: 20px auto 40px;
-	font-size: 1.5em;
-  
-}
-ul.posts li {
-	
-	list-style: none;
-	
-}
 
 nav ul li,footer ul li {
 	font-family:'Open Sans'; 
@@ -70,7 +64,6 @@ nav ul li,footer ul li {
 	list-style: none;
 	font-weight: 600;
 	display:inline;
-  
 }
 
 nav ul, footer ul { 
@@ -81,6 +74,9 @@ nav ul, footer ul {
 	font-weight: 600; 
 }
 
+footer {
+	border-top: 1px solid #d5d5d5;
+}
 
 img 
 {
@@ -89,6 +85,22 @@ img
   border: 6px solid;
 }
 
+h1 a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 0;
+}
+.content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem; 
+}
+
+.content2 ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem; 
+}
 
 @font-face {
   font-family: 'Open Sans';
@@ -126,3 +138,9 @@ img
   font-weight: 600;
   src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxmWeb5PoA5ztb49yLyUzH1A.woff) format('woff');
 }
+
+@media (max-width: 550px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+
