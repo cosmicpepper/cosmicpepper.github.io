@@ -82,6 +82,14 @@ nav ul, footer ul {
 }
 
 
+img 
+{
+  display: block;
+  width: 100%; 
+  border: 6px solid;
+}
+
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
