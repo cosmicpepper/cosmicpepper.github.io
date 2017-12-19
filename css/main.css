@@ -2,6 +2,7 @@
 body {
 	margin: 60px auto;
 	width: 70%;
+	color:#dc7b00; 
 }
 
 h1, h2, h3, h4 { 
@@ -10,7 +11,7 @@ h1, h2, h3, h4 {
 
 h1 { 
 	font-size: 45px;
-	color:#dc7b00; 
+	color:#fff; 
 }
 
 h2 { 
