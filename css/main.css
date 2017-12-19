@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
 	margin: 60px auto;
-	body:70%;
+	width:70%;
 }
 
 h1, h2, h3, h4 { 
