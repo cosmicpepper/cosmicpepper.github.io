@@ -66,7 +66,7 @@ li {
 nav ul li,footer ul li {
 	font-family:'Open Sans'; 
 	list-style: none;
-	font-weight: 600;
+	font-weight: 400;
 	display:inline;
 }
 
@@ -75,8 +75,7 @@ nav ul, footer ul {
 	font-family: 'Open Sans', 'Arial', 'Sans-Serif'; 
 	padding: 2px; 
 	list-style: none;
-	font-weight: 600; 
-	background: #fff;
+	font-weight: 400; 
 }
 
 footer {
