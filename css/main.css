@@ -26,23 +26,21 @@ h4 {
 	font-size: 21px; 
 }
 
-h1 a {
-  color: #333;
+h1 {
+  color: #fff;
   text-decoration: none;
   border-bottom: 0;
 }
 
-a{ 
-
+a { 
 	text-decoration: none;
-	color:#000000;
-	
+	color:#fff;	
 }
 
 a:hover {
 
 	text-decoration: blink;
-  
+  	color: #fff;
 }
 
 
@@ -67,8 +65,9 @@ li {
 nav ul li,footer ul li {
 	font-family:'Open Sans'; 
 	list-style: none;
-	font-weight: 400;
+	font-weight: 600;
 	display:inline;
+	color: #fff;
 }
 
 nav ul, footer ul { 
@@ -76,7 +75,8 @@ nav ul, footer ul {
 	font-family: 'Open Sans', 'Arial', 'Sans-Serif'; 
 	padding: 2px; 
 	list-style: none;
-	font-weight: 400; 
+	font-weight: 600; 
+	color:#fff;
 }
 
 footer {
