@@ -2,7 +2,7 @@
 body {
 	margin: 60px auto;
 	width: 70%;
-	background: #000000; 
+	background: white; 
 }
 
 h1, h2, h3, h4 { 
@@ -27,27 +27,27 @@ h4 {
 }
 
 h1 {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0;
 }
 
 a { 
 	text-decoration: none;
-	color:#fff;	
+	color: #000000;	
 }
 
 a:hover {
 
 	text-decoration: blink;
-  	color: #fff;
+  	color: #000000;
 }
 
 
 p {
 
 	font-size: 25px;
-	color:#fff; 
+	color:#000000; 
 }
 
 ul {
@@ -67,7 +67,7 @@ nav ul li,footer ul li {
 	list-style: none;
 	font-weight: 600;
 	display:inline;
-	color: #fff;
+	color: #000000;
 }
 
 nav ul, footer ul { 
@@ -76,7 +76,7 @@ nav ul, footer ul {
 	padding: 2px; 
 	list-style: none;
 	font-weight: 600; 
-	color:#fff;
+	color:#000000;
 }
 
 footer {
